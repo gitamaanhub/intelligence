@@ -33,3 +33,5 @@ function getUserCredentials(callback) {
     callback('unrecognized_email', 'unknown');
   }
 }
+
+//shldnt communicate with an ip 
