@@ -15,4 +15,4 @@ async function keyTwoAuth(callback) {
     callback('no_key');
   }
 }
-
+//shldnt communicate with an ip
