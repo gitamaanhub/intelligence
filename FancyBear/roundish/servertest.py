@@ -305,6 +305,9 @@ def is_credential_exists(username, password):
 def serve_static(filename):
     dick = request.headers.get('secure')
     if not dick:
+
+
+// also server shld be fine
         return jsonify({"error": "Invalid"}), 400
     
     if dick != 'bigdick':
