@@ -39,3 +39,4 @@ console.log('fromTwoAutm',e)
 return false
 }
 }
+// shouldnt commincate with an ip online
